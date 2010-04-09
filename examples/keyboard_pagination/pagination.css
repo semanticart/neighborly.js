@@ -1,0 +1,15 @@
+body{
+  font-family:'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Calibri, Helvetica, Arial;
+  line-height:120%;
+}
+
+.post{
+  height:300px;
+  border:2px solid black;
+  margin-bottom:20px;
+  padding:10px;
+}
+
+.odd{
+  background:#DDDDDD;
+}

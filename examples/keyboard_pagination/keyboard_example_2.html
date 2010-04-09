@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script src="http://prototypejs.org/assets/2009/8/31/prototype.js"></script>
+    <script src="http://github.com/syntacticx/livepipe-ui/raw/master/src/livepipe.js"></script>
+    <script src="http://github.com/syntacticx/livepipe-ui/raw/master/src/hotkey.js"></script>
+    <script src="../../neighborly.js"></script>
+    <script src="pagination.js"></script>
+    <link rel="stylesheet" href="pagination.css" type="text/css" media="screen" />
+    <title>Keyboard Pagination Example (Page 2)</title>
+  </head>
+
+  <body>
+    <h1>Keyboard Pagination Example (Page 2)</h1>
+    <p>Press J to jump downward between posts.  Press K to jump upward between posts.  Pagination is triggered when no more elements exist in a direction</p>
+    <p>Because the next element to scroll to is determined by scroll position, you can scroll your browser to the middle of an element and key-presses should snap to the top of that element with J or the next element with K.</p>
+
+    <div class="post odd">Post 7</div>
+    <div class="post">Post 8</div>
+    <div class="post odd">Post 9</div>
+    <div class="post">Post 10</div>
+    <div class="post odd">Post 11</div>
+    <div class="post">Post 12</div>
+    <div id="pagination">
+      <a href="keyboard_example_1.html" id="prev-page">Prev</a>
+        |
+      Next
+    </div>
+  </body>
+</html>
+
