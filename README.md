@@ -52,7 +52,7 @@ If you managed to be scrolled precisely at the Y coordinates of where div#c begi
 running tests
 -------------
 
-To run the tests, open tests/test.html.  You'll need an internet connection so that the tests can load some external resources (qunit and its dependencies, etc.).  You can run these tests on a per-browser basis by opening the test.html in whichever browser you want to test.
+To run the tests, open the appropriate html file in the test directory for the version you want to test.  You'll need an internet connection so that the tests can load some external resources (qunit and its dependencies, etc.).  You can run these tests on a per-browser basis by opening the test.html in whichever browser you want to test.
 
 
 filing bugs / contributing (won't you be my neighbor?)
