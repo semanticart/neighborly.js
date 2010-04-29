@@ -1,7 +1,7 @@
 neighborly.js
 =============
 
-neighborly.js extends Array to allow using selectors (i.e. $$('.some_class')) to find the closest/neighbor elements either above or below a users current scroll location in the browser.  It provides scrollToNextYNeighbor and scrollToPreviousYNeighbor to allow you to easily jump between matching elements.
+neighborly.js provides extensions for prototype and jQuery allow using selectors (i.e. $$('.some_class') in prototype) to find the closest/neighbor elements either above or below a users current scroll location in the browser.  It provides scrollToNextYNeighbor and scrollToPreviousYNeighbor to allow you to easily jump between matching elements.
 
 You can optionally pass a function to scrollToNextYNeighbor and scrollToPreviousYNeighbor that will be executed in the event that no matching element is found to scroll to (as an example, I use this to trigger a pagination event).
 
@@ -17,7 +17,9 @@ examples
 
 You should look in the examples folder for some functional examples.  You might also be interested in checking out the tests.
 
-If you would rather use your imagination:  Given the following HTML document where the user has scrolled the browser so that the top of the page is represented by the dotted line
+If you would rather use your imagination, here are a few examples using prototype:
+
+Given the following HTML document where the user has scrolled the browser so that the top of the page is represented by the dotted line
 
 
     <div id="a" class="msg-wrapper">...</div>
@@ -50,7 +52,7 @@ If you managed to be scrolled precisely at the Y coordinates of where div#c begi
 running tests
 -------------
 
-To run the tests, open tests/test.html.  You'll need an internet connection so that the tests can load some external resources (qunit and its dependencies, and prototype).  You can run these tests on a per-browser basis by opening the test.html in whichever browser you want to test.
+To run the tests, open tests/test.html.  You'll need an internet connection so that the tests can load some external resources (qunit and its dependencies, etc.).  You can run these tests on a per-browser basis by opening the test.html in whichever browser you want to test.
 
 
 filing bugs / contributing (won't you be my neighbor?)
@@ -59,6 +61,8 @@ filing bugs / contributing (won't you be my neighbor?)
 If you have problems or want to add some functionality you should file an issue on github or fork the code and send me a pull request.
 
 If you find bugs in specific browsers please let me know.
+
+If I didn't do something in the proper idiomatic or just plain "right" way for prototype or jQuery, feel free to let me know that as well.
 
 Failing tests illustrating problems or desired functionality are appreciated.
 

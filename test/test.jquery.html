@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <link rel="stylesheet" href="http://github.com/jquery/qunit/raw/master/qunit/qunit.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="http://github.com/jquery/qunit/raw/master/qunit/qunit.js"></script>
+  <script src="tests.neighborly.jquery.js"></script>
+  <script src="../neighborly.jquery.js"></script>
+
+  <style>
+    .example-scrollable{
+      height:4000px;
+    }
+    .example-smallscrollable{
+      height:40px;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="qunit-header">QUnit example</h1>
+  <h2 id="qunit-banner"></h2>
+  <h2 id="qunit-userAgent"></h2>
+  <ol id="qunit-tests"></ol>
+
+  <div id="content">
+    <div id="spacer" style="height:4000px"></div>
+
+    <div id="field">
+      <div id="first" class="example-scrollable">first</div>
+      <div id="second" class="example-scrollable">second</div>
+      <div id="third" class="example-scrollable">third</div>
+      <div id="fourth" class="example-scrollable">fourth</div>
+      <div id="fifth" class="example-smallscrollable">fifth</div>
+    </div>
+  </div>
+</body>
+</html>
+
