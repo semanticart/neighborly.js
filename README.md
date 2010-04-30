@@ -1,7 +1,7 @@
 neighborly.js
 =============
 
-neighborly.js provides extensions for prototype and jQuery allow using selectors (i.e. $$('.some_class') in prototype) to find the closest/neighbor elements either above or below a users current scroll location in the browser.  It provides scrollToNextYNeighbor and scrollToPreviousYNeighbor to allow you to easily jump between matching elements.
+neighborly.js provides extensions for prototype and jQuery to allow using selectors (i.e. $$('.some_class') in prototype) to find the closest/neighbor elements either above or below a users current scroll location in the browser.  It provides scrollToNextYNeighbor and scrollToPreviousYNeighbor to allow you to easily jump between matching elements.
 
 You can optionally pass a function to scrollToNextYNeighbor and scrollToPreviousYNeighbor that will be executed in the event that no matching element is found to scroll to (as an example, I use this to trigger a pagination event).
 
@@ -15,7 +15,7 @@ I wrote this to provide an easy way to allow jumping up and down between element
 examples
 -------------
 
-You should look in the examples folder for some functional examples.  You might also be interested in checking out the tests.
+You should look in the [examples folder](examples) for some functional examples.  You might also be interested in checking out the tests.
 
 If you would rather use your imagination, here are a few examples using prototype:
 
