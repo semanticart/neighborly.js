@@ -15,7 +15,7 @@ I wrote this to provide an easy way to allow jumping up and down between element
 examples
 -------------
 
-You should look in the [examples folder](examples) for some functional examples.  You might also be interested in checking out the tests.
+You should look in the examples folder for some functional examples.  You might also be interested in checking out the tests.
 
 If you would rather use your imagination, here are a few examples using prototype:
 
